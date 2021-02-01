@@ -2,11 +2,13 @@ import './App.css';
 import Row from './components/Row/Row.component';
 import Banner from './components/Banner/Banner.component';
 import request from './request/request';
+import Navbar from './components/Navbar/Navbar.component';
 
 
 function App() {
   return (
     <div className="app">
+      <Navbar />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
